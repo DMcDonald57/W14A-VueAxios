@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
+    <joke-button/>
     <NormalJoke/>
     <SnakeJoke/>
     <LoudJoke/>
@@ -11,13 +12,15 @@
 import NormalJoke from '@/components/NormalJoke.vue'
 import SnakeJoke from '@/components/SnakeJoke.vue'
 import LoudJoke from '@/components/LoudJoke.vue'
+import JokeButton from '@/components/JokeButton.vue'
 
 export default {
   name: 'App',
   components: {
     NormalJoke,
     SnakeJoke,
-    LoudJoke
+    LoudJoke,
+    JokeButton
   }
 }
 </script>
@@ -30,5 +33,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  background-color: burlywood;
 }
 </style>
