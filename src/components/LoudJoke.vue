@@ -6,7 +6,7 @@
 
 <script>
     export default {
-        name : "LoadJoke"
+        name : "LoudJoke"
     }
 </script>
 

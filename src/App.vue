@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <joke-button/>
+    <JokeButton/>
     <NormalJoke/>
     <SnakeJoke/>
     <LoudJoke/>
@@ -33,6 +33,5 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-  background-color: burlywood;
 }
 </style>

@@ -1,6 +1,8 @@
 <template>
     <div>
-
+        <button>Press for Loud Joke</button>
+        <button>Press for Snake Joke</button>
+        <button @click="response">Press for Normal Joke</button>
     </div>
 </template>
 
@@ -9,6 +11,7 @@ import axios from "axios";
 
     export default {
         name : "JokeButton",
+
 
         mounted () {
             axios.request ({
